@@ -1,0 +1,14 @@
+# my_project/.dockerignore
+
+# ローカルで作った仮想環境は不要
+.venv
+
+# pyenv のバージョン指定ファイルは Docker イメージ内で使わない
+.python-version
+
+# Python キャッシュなど
+__pycache__/
+*.pyc
+
+# macOS のメタファイル（任意）
+.DS_Store
